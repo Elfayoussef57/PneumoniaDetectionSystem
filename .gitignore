@@ -25,14 +25,6 @@ __pycache__/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# ── Outputs / figures générées ──
-viz_*.png
-eda_*.png
-cnn_training_curves.png
-comparison_bar.png
-confusion_matrices.png
-roc_curves.png
-
 # ── OS ──
 .DS_Store
 Thumbs.db
