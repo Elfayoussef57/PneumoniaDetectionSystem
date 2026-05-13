@@ -6,8 +6,6 @@ chest_xray/
 
 # ── Modèle sauvegardé ──
 *.keras
-*.h5
-*.pkl
 
 # ── Environnement virtuel ──
 .venv/
