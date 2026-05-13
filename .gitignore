@@ -1,0 +1,44 @@
+# ── Dataset (trop lourd pour GitHub) ──
+chest_xray/
+*.jpeg
+*.jpg
+*.png
+
+# ── Modèle sauvegardé ──
+*.keras
+*.h5
+*.pkl
+
+# ── Environnement virtuel ──
+.venv/
+venv/
+env/
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Outputs / figures générées ──
+viz_*.png
+eda_*.png
+cnn_training_curves.png
+comparison_bar.png
+confusion_matrices.png
+roc_curves.png
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ──
+.vscode/
+.idea/
+*.code-workspace
