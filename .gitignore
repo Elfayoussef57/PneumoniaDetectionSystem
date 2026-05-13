@@ -2,7 +2,6 @@
 chest_xray/
 *.jpeg
 *.jpg
-*.png
 
 # ── Modèle sauvegardé ──
 *.keras
