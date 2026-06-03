@@ -62,7 +62,18 @@ Si vous placez le dataset ailleurs, modifiez `DATA_DIR` en haut du script.
 ## Exécution
 
 ```bash
-python pneumonia_detection.py
+# Entraîner d'abord
+python ml_pipeline.py
+python dl_pipeline.py
+
+# Prédire avec tous les modèles
+python predict.py --image chest_xray/test/PNEUMONIA/person1_bacteria_1.jpeg
+
+# Prédire avec le CNN seulement
+python predict.py --image mon_xray.jpeg --model cnn
+
+# Sans afficher le plot
+python predict.py --image mon_xray.jpeg --no-plot
 ```
 
 Ou dans Jupyter :
