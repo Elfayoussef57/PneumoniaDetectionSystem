@@ -3,9 +3,6 @@ chest_xray/
 *.jpeg
 *.jpg
 
-# ── Modèle sauvegardé ──
-*.keras
-
 # ── Environnement virtuel ──
 .venv/
 venv/
